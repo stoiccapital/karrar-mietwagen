@@ -387,6 +387,17 @@ body {
     line-height: 1.6;
 }
 
+.footer-link {
+    color: #cccccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
 .footer-bottom {
     border-top: 1px solid #333333;
     padding-top: 20px;
@@ -395,6 +406,152 @@ body {
 
 .footer-bottom p {
     color: #cccccc;
+}
+
+/* Impressum Page Styles */
+.impressum {
+    padding: 120px 0 80px;
+    background-color: #ffffff;
+}
+
+.impressum-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.impressum-section {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.impressum-section:last-of-type {
+    border-bottom: none;
+}
+
+.impressum-section h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+.impressum-section p {
+    font-size: 1rem;
+    color: #333333;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+}
+
+.impressum-section p:last-child {
+    margin-bottom: 0;
+}
+
+.contact-link {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+    color: #333333;
+    text-decoration: underline;
+}
+
+.back-link {
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #e0e0e0;
+}
+
+/* Datenschutzerklärung Page Styles */
+.datenschutz {
+    padding: 120px 0 80px;
+    background-color: #ffffff;
+}
+
+.datenschutz-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.datenschutz-section {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.datenschutz-section:last-of-type {
+    border-bottom: none;
+}
+
+.datenschutz-section h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+.datenschutz-section p {
+    font-size: 1rem;
+    color: #333333;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.datenschutz-section p:last-child {
+    margin-bottom: 0;
+}
+
+.company-info {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+    border-left: 4px solid #000000;
+}
+
+.company-info p {
+    margin-bottom: 0.5rem;
+}
+
+.company-info p:last-child {
+    margin-bottom: 0;
+}
+
+.data-list,
+.purpose-list,
+.rights-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 1rem 0;
+}
+
+.data-list li,
+.purpose-list li,
+.rights-list li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #e0e0e0;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.data-list li:before,
+.purpose-list li:before,
+.rights-list li:before {
+    content: "•";
+    color: #000000;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.data-list li:last-child,
+.purpose-list li:last-child,
+.rights-list li:last-child {
+    border-bottom: none;
 }
 
 /* Responsive Design */

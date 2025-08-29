@@ -1,6 +1,6 @@
-# Taxi Service Website
+# Dyamidrive Website
 
-Eine einfache, moderne Website für ein Taxi-Unternehmen in Deutschland.
+Eine einfache, moderne Website für ein Fahrdienst-Unternehmen in Deutschland.
 
 ## Features
 
@@ -30,7 +30,7 @@ Eine einfache, moderne Website für ein Taxi-Unternehmen in Deutschland.
 ### Kontaktdaten ändern
 Bearbeiten Sie in `index.html` die Telefonnummer:
 ```html
-<p>+49 123 456 789</p>
+<p>+49 176 22957732</p>
 ```
 
 ### Farben anpassen
