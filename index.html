@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxi Service - Ihr zuverlässiger Partner</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="#home" class="logo-link">
+                        <h1>Taxi Service</h1>
+                    </a>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Dienstleistungen</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">Über uns</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Kontakt</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Ihr zuverlässiger Taxi-Service</h1>
+                    <p class="hero-subtitle">Schnell, sicher und komfortabel - wir bringen Sie überall hin</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Jetzt buchen</a>
+                        <a href="#services" class="btn btn-secondary">Mehr erfahren</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="taxi-icon">TAXI</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title">Unsere Dienstleistungen</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">UBER</div>
+                        <h3>Uber Partner</h3>
+                        <p>Wir sind offizieller Partner von Uber und bieten Ihnen die gleiche Qualität und Zuverlässigkeit.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">BOLT</div>
+                        <h3>Bolt Partner</h3>
+                        <p>Als zertifizierter Bolt-Partner garantieren wir schnelle und sichere Fahrten zu fairen Preisen.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">APP</div>
+                        <h3>Online Buchung</h3>
+                        <p>Buchen Sie bequem über unsere Website - rund um die Uhr verfügbar.</p>
+                        <button class="btn btn-primary booking-btn" onclick="showPhoneNumber()">Jetzt anrufen</button>
+                        <div id="phone-display" class="phone-display" style="display: none;">
+                            <p class="phone-number">+49 123 456 789</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">24/7</div>
+                        <h3>24/7 Service</h3>
+                        <p>Wir sind 24 Stunden am Tag, 7 Tage die Woche für Sie da - auch nachts und an Feiertagen.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2 class="section-title">Über uns</h2>
+                        <p>Wir sind ein etablierter Taxi-Service mit langjähriger Erfahrung im Personentransport. Als offizielle Partner von Uber und Bolt bieten wir Ihnen höchste Qualitätsstandards und moderne Technologie.</p>
+                        <p>Unser Team aus erfahrenen Fahrern und modernen Fahrzeugen garantiert Ihnen eine sichere, komfortable und pünktliche Fahrt zu Ihrem gewünschten Ziel.</p>
+                        <div class="features">
+                            <div class="feature">
+                                <span class="feature-icon">✓</span>
+                                <span>Lizenzierte Fahrer</span>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-icon">✓</span>
+                                <span>Moderne Fahrzeuge</span>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-icon">✓</span>
+                                <span>Faire Preise</span>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-icon">✓</span>
+                                <span>24/7 Verfügbarkeit</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Kontakt</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Buchen Sie jetzt</h3>
+                        <p>Nutzen Sie unsere Apps oder kontaktieren Sie uns direkt:</p>
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <span class="contact-icon">UBER</span>
+                                <div>
+                                    <h4>Uber App</h4>
+                                    <p>Buchen Sie über die Uber App</p>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <span class="contact-icon">BOLT</span>
+                                <div>
+                                    <h4>Bolt App</h4>
+                                    <p>Buchen Sie über die Bolt App</p>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <span class="contact-icon">TEL</span>
+                                <div>
+                                    <h4>Telefon</h4>
+                                    <p>+49 123 456 789</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer will be loaded here -->
+    <div id="footer-placeholder"></div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
